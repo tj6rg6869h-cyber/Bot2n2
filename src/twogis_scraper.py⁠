@@ -1,0 +1,11 @@
+from loguru import logger
+
+class TwoGISB2BScraper:
+    def __init__(self, proxy=None):
+        self.proxy = proxy
+
+    async def scrape_city(self, city_name: str):
+        logger.info(f"Сбор данных для города: {city_name}")
+        # Здесь твоя логика парсинга
+        leads = []
+        return leads
